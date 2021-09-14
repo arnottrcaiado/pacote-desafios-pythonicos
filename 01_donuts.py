@@ -10,6 +10,11 @@ e donuts(23) retorna 'Number of donuts: many'
 """
 
 def donuts(count):
+    if count < 10 :
+        resp = str(count)
+    else:
+        resp = 'many'
+    return 'Number of donuts: '+ resp
     # +++ SUA SOLUÇÃO +++
     return
 
